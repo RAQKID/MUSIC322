@@ -21,12 +21,12 @@
 
 
 module.exports = {
-  TOKEN: "OTk3ODE2MjYzNzQ3MzEzNzA1.GXHY9i.JdjQMSTjbOC-lYfMzJBydieBCQH7Pdc14zU7zg",
-  ownerID: ["1004206704994566164", ""],
+  TOKEN: process.env.TOKEN,
+  ownerID: ["996784377633706105", "996784377633706105"],
   botInvite: "",
   supportServer: "",
   mongodbURL: "mongodb+srv://shiva:shiva@musicbotyt.ouljywv.mongodb.net/?retryWrites=true&w=majority",
-  status: 'GlaceYT',
+  status: '/help',
   commandsDir: './commands',
   language: "en",
   embedColor: "00fbff",
